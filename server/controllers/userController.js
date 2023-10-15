@@ -1,6 +1,6 @@
 const {User, Basket, Device, Rating} = require('../models/models')
 const ApiError = require('../error/ApiError')
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcrypt')
 const jwt = require('jsonwebtoken')
 class UserController{
     async registration(req, res, next){
